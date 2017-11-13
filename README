@@ -4,4 +4,4 @@ Structure: The main function at the top of the program is where the shell code i
 
 Bugs: None known
 
-Compile: Run make or make all to compile both shell and shellnoprompt. Run make 33sh or make 33noprompt to compile one of the versions. Run make clean to clean up files.
+Compile: Run make or make all to compile both shell and shellnoprompt. Run make shell or make shellnoprompt to compile one of the versions. Run make clean to clean up files.
