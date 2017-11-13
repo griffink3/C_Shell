@@ -95,7 +95,7 @@ int main() {
 ssize_t prompt(char input_buf[]) {
     #ifdef PROMPT
     // Only print prompt if compiled with the flag -DPROMPT
-    int print = printf("33sh> ");
+    int print = printf("shell> ");
     fflush(stdout);
     if (print < 0) {
         // Here, we handle the case that an error occured in the sys call printf
